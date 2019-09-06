@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2/linux-x64",
-    "signature": "87e17f49d4b19e2f37bfe20ae6f4841a8740e130"
+    "signature": "d61a2fd011014b21e17ee54a85068abb69837258"
   },
   "compilationOptions": {
     "defines": [
@@ -42,6 +42,14 @@
         },
         "compile": {
           "lib/netstandard1.3/FastExpressionCompiler.dll": {}
+        }
+      },
+      "Google.Protobuf/3.9.1": {
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
         }
       },
       "Humanizer.Core/2.2.0": {
@@ -1023,7 +1031,7 @@
           "Microsoft.Extensions.Options": "2.2.0",
           "System.Buffers": "4.5.0",
           "System.IO.Pipelines": "4.5.3",
-          "System.Memory": "4.5.1",
+          "System.Memory": "4.5.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Runtime.CompilerServices.Unsafe": "4.5.1",
           "System.Security.Principal.Windows": "4.5.0"
@@ -1053,7 +1061,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
           "Microsoft.Net.Http.Headers": "2.2.0",
-          "System.Memory": "4.5.1",
+          "System.Memory": "4.5.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Runtime.CompilerServices.Unsafe": "4.5.1",
           "System.Security.Cryptography.Cng": "4.5.0",
@@ -1760,7 +1768,7 @@
       },
       "Microsoft.Extensions.Primitives/2.2.0": {
         "dependencies": {
-          "System.Memory": "4.5.1",
+          "System.Memory": "4.5.2",
           "System.Runtime.CompilerServices.Unsafe": "4.5.1"
         },
         "compile": {
@@ -2543,7 +2551,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Memory/4.5.1": {},
+      "System.Memory/4.5.2": {},
       "System.Net.Http/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.2",
@@ -3101,7 +3109,7 @@
       "appbox.Core/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "System.Memory": "4.5.1",
+          "System.Memory": "4.5.2",
           "System.Threading.Tasks.Extensions": "4.5.1"
         },
         "compile": {
@@ -3129,6 +3137,7 @@
       "appbox.Store/1.0.0": {
         "dependencies": {
           "FastExpressionCompiler": "1.10.1",
+          "Google.Protobuf": "3.9.1",
           "appbox.Core": "1.0.0",
           "appbox.Server": "1.0.0"
         },
@@ -3160,6 +3169,17 @@
           "lib/netstandard1.3/FastExpressionCompiler.dll": {
             "assemblyVersion": "1.10.1.0",
             "fileVersion": "1.10.1.0"
+          }
+        }
+      },
+      "Google.Protobuf/3.9.1": {
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.9.1.0",
+            "fileVersion": "3.9.1.0"
           }
         }
       },
@@ -4379,7 +4399,7 @@
           "Microsoft.Extensions.Options": "2.2.0",
           "System.Buffers": "4.5.0",
           "System.IO.Pipelines": "4.5.3",
-          "System.Memory": "4.5.1",
+          "System.Memory": "4.5.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Runtime.CompilerServices.Unsafe": "4.5.1",
           "System.Security.Principal.Windows": "4.5.0"
@@ -4415,7 +4435,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
           "Microsoft.Net.Http.Headers": "2.2.0",
-          "System.Memory": "4.5.1",
+          "System.Memory": "4.5.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Runtime.CompilerServices.Unsafe": "4.5.1",
           "System.Security.Cryptography.Cng": "4.5.0",
@@ -5581,7 +5601,7 @@
       },
       "Microsoft.Extensions.Primitives/2.2.0": {
         "dependencies": {
-          "System.Memory": "4.5.1",
+          "System.Memory": "4.5.2",
           "System.Runtime.CompilerServices.Unsafe": "4.5.1"
         },
         "runtime": {
@@ -6993,7 +7013,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Memory/4.5.1": {},
+      "System.Memory/4.5.2": {},
       "System.Net.Http/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.2",
@@ -7571,7 +7591,7 @@
       "appbox.Core/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "System.Memory": "4.5.1",
+          "System.Memory": "4.5.2",
           "System.Threading.Tasks.Extensions": "4.5.1"
         },
         "runtime": {
@@ -7599,6 +7619,7 @@
       "appbox.Store/1.0.0": {
         "dependencies": {
           "FastExpressionCompiler": "1.10.1",
+          "Google.Protobuf": "3.9.1",
           "appbox.Core": "1.0.0",
           "appbox.Server": "1.0.0"
         },
@@ -7620,6 +7641,13 @@
       "sha512": "sha512-eKx6sgmLKAdA4bKWXY8azLTxQz9MStDsbPBHY3wJ8ABNxpLG7w8eWBuITumJK3mI8c/9cdFod06RliDYuGLzzg==",
       "path": "fastexpressioncompiler/1.10.1",
       "hashPath": "fastexpressioncompiler.1.10.1.nupkg.sha512"
+    },
+    "Google.Protobuf/3.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MV9xJkpm2Jbe30XGwyPH4Xn0LwutWn6UEoLo2djfG2ouK2cBVrlcP4sJPfLrRVFzRutmGHoWUHdHFsq1qiRV5A==",
+      "path": "google.protobuf/3.9.1",
+      "hashPath": "google.protobuf.3.9.1.nupkg.sha512"
     },
     "Humanizer.Core/2.2.0": {
       "type": "package",
@@ -9308,12 +9336,12 @@
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
     },
-    "System.Memory/4.5.1": {
+    "System.Memory/4.5.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
-      "path": "system.memory/4.5.1",
-      "hashPath": "system.memory.4.5.1.nupkg.sha512"
+      "sha512": "sha512-fvq1GNmUFwbKv+aLVYYdgu/+gc8Nu9oFujOxIjPrsf+meis9JBzTPDL6aP/eeGOz9yPj6rRLUbOjKMpsMEWpNg==",
+      "path": "system.memory/4.5.2",
+      "hashPath": "system.memory.4.5.2.nupkg.sha512"
     },
     "System.Net.Http/4.3.0": {
       "type": "package",
