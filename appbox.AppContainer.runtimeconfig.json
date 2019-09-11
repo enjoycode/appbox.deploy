@@ -1,3 +1,7 @@
 {
-  "runtimeOptions": {}
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "lib"
+    ]
+  }
 }
