@@ -1,4 +1,4 @@
-AppBoxFuture is a Rapid Application Framework
+Welcome to DevOps future!
 
 [Wiki Home](https://github.com/enjoycode/appbox.deploy/wiki)
 
