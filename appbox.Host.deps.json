@@ -724,6 +724,13 @@
       "sha512": "sha512-q7NZj6NpNMH64r00irX5HcmHi4yKb4QHw+SYbHS/h7GpFfbJHt7otstl/pscBE138YqoqVT3+jeQLcVa1ilhSw==",
       "type": "package"
     },
+    "Microsoft.CodeAnalysis.CSharp.Scripting/2.9.0": {
+      "hashPath": "microsoft.codeanalysis.csharp.scripting.2.9.0.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-uLcKY/E9GDSWB1qchpM49tWbnYMcVEI18Qzzv8ejtMtxT9DtaxrDsYw9FY7jy46WPbQT1elHPVN++FjDm+LiTA==",
+      "type": "package"
+    },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.9.0": {
       "hashPath": "microsoft.codeanalysis.csharp.workspaces.2.9.0.nupkg.sha512",
       "path": "./",
@@ -757,6 +764,13 @@
       "path": "./",
       "serviceable": true,
       "sha512": "sha512-2qL0Qyu5qHzg6/JzF80mLgsqn9NP/Q0mQwjH+Z+DiqcuODJx8segjN4un2Tnz6bEAWv8FCRFNXR/s5wzlxqA8A==",
+      "type": "package"
+    },
+    "Microsoft.CodeAnalysis.Scripting.Common/2.9.0": {
+      "hashPath": "microsoft.codeanalysis.scripting.common.2.9.0.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-lsAgiKpPR7opQiqoJwAxHUG3YmjcK4uQS5hzEn3bRe0Ql8mPxZAmqULDQriEyZrk9qVcYNtMq+VzxfA8ygh3Lw==",
       "type": "package"
     },
     "Microsoft.CodeAnalysis.Workspaces.Common/2.9.0": {
@@ -2157,7 +2171,7 @@
   },
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2/linux-x64",
-    "signature": "a9ea277f8ca397742312ac88fb88fefe67252859"
+    "signature": "d9c510bee83f67b4a92dceba1b38cb2a15ebdc0f"
   },
   "targets": {
     ".NETCoreApp,Version=v2.2": {
@@ -3344,6 +3358,15 @@
           "Microsoft.CodeAnalysis.Features": "2.9.0"
         }
       },
+      "Microsoft.CodeAnalysis.CSharp.Scripting/2.9.0": {
+        "compile": {
+          "./Microsoft.CodeAnalysis.CSharp.Scripting.dll": {}
+        },
+        "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp": "2.9.0",
+          "Microsoft.CodeAnalysis.Scripting.Common": "2.9.0"
+        }
+      },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.9.0": {
         "compile": {
           "./Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {}
@@ -3424,6 +3447,33 @@
           "Microsoft.AspNetCore.Razor.Language": "2.2.0",
           "Microsoft.CodeAnalysis.CSharp": "2.9.0",
           "Microsoft.CodeAnalysis.Common": "2.9.0"
+        }
+      },
+      "Microsoft.CodeAnalysis.Scripting.Common/2.9.0": {
+        "compile": {
+          "./Microsoft.CodeAnalysis.Scripting.dll": {}
+        },
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Common": "2.9.0",
+          "System.AppContext": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.StackTrace": "4.3.0",
+          "System.Diagnostics.Tools": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
         }
       },
       "Microsoft.CodeAnalysis.Workspaces.Common/2.9.0": {
@@ -5181,6 +5231,7 @@
         },
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Features": "2.9.0",
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "2.9.0",
           "appbox.Core": "1.0.0",
           "appbox.Store": "1.0.0"
         }
@@ -6489,6 +6540,30 @@
           "./Microsoft.CodeAnalysis.CSharp.Features.dll": {}
         }
       },
+      "Microsoft.CodeAnalysis.CSharp.Scripting/2.9.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp": "2.9.0",
+          "Microsoft.CodeAnalysis.Scripting.Common": "2.9.0"
+        },
+        "resources": {
+          "./cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "./zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {}
+        },
+        "runtime": {
+          "./Microsoft.CodeAnalysis.CSharp.Scripting.dll": {}
+        }
+      },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.9.0": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "2.9.0",
@@ -6629,6 +6704,48 @@
         },
         "runtime": {
           "./Microsoft.CodeAnalysis.Razor.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.Scripting.Common/2.9.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Common": "2.9.0",
+          "System.AppContext": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.StackTrace": "4.3.0",
+          "System.Diagnostics.Tools": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "resources": {
+          "./cs/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./de/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./es/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./fr/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./it/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./ja/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./ko/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./pl/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./ru/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./tr/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "./zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll": {}
+        },
+        "runtime": {
+          "./Microsoft.CodeAnalysis.Scripting.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.Workspaces.Common/2.9.0": {
@@ -8243,6 +8360,7 @@
       "appbox.Design/1.0.0": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Features": "2.9.0",
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "2.9.0",
           "appbox.Core": "1.0.0",
           "appbox.Store": "1.0.0"
         },
