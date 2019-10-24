@@ -2000,6 +2000,13 @@
       "sha512": "sha512-JhKbtaBEcFMBi68auQcl6/yb6UTya9Ekv5mUk5+AiCfohklHcwXBH/Zfh+miSQvueCNa1xp+V76oiPnmBZ6S9w==",
       "type": "package"
     },
+    "prometheus-net/3.3.0": {
+      "hashPath": "prometheus-net.3.3.0.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-6NYWlNau7MAWokS4Ila42mVCqDpe1YhpxBTQIeIUXOGVC/rScn9JhMAibD6x9H0+Qj+tHzMYERl4+UkUX8+3iQ==",
+      "type": "package"
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "hashPath": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
       "path": "./",
@@ -2171,7 +2178,7 @@
   },
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2/linux-x64",
-    "signature": "d9c510bee83f67b4a92dceba1b38cb2a15ebdc0f"
+    "signature": "7cfc895ff5489c48b8f32a85474c38a3de80061b"
   },
   "targets": {
     ".NETCoreApp,Version=v2.2": {
@@ -5247,7 +5254,8 @@
           "appbox.Design": "1.0.0",
           "appbox.Server": "1.0.0",
           "appbox.Store": "1.0.0",
-          "nulastudio.NetCoreBeauty": "1.0.2"
+          "nulastudio.NetCoreBeauty": "1.0.2",
+          "prometheus-net": "3.3.0"
         }
       },
       "appbox.Server/1.0.0": {
@@ -5270,6 +5278,12 @@
         }
       },
       "nulastudio.NetCoreBeauty/1.0.2": {},
+      "prometheus-net/3.3.0": {
+        "compile": {
+          "./Prometheus.NetCore.dll": {},
+          "./Prometheus.NetStandard.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -8376,7 +8390,8 @@
           "appbox.Design": "1.0.0",
           "appbox.Server": "1.0.0",
           "appbox.Store": "1.0.0",
-          "nulastudio.NetCoreBeauty": "1.0.2"
+          "nulastudio.NetCoreBeauty": "1.0.2",
+          "prometheus-net": "3.3.0"
         },
         "runtime": {
           "./appbox.Host.dll": {}
@@ -8402,6 +8417,12 @@
         }
       },
       "nulastudio.NetCoreBeauty/1.0.2": {},
+      "prometheus-net/3.3.0": {
+        "runtime": {
+          "./Prometheus.NetCore.dll": {},
+          "./Prometheus.NetStandard.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
