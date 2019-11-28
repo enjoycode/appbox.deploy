@@ -15,6 +15,13 @@
       "sha512": "sha512-MV9xJkpm2Jbe30XGwyPH4Xn0LwutWn6UEoLo2djfG2ouK2cBVrlcP4sJPfLrRVFzRutmGHoWUHdHFsq1qiRV5A==",
       "type": "package"
     },
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
+      "type": "package"
+    },
     "Microsoft.NETCore.App/2.2.7": {
       "hashPath": "microsoft.netcore.app.2.2.7.nupkg.sha512",
       "path": "./",
@@ -71,6 +78,13 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package"
     },
+    "Npgsql/4.1.2": {
+      "hashPath": "npgsql.4.1.2.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-41Nht/GnC/cRCA/2T9vq5NAv8m24RDp3paRhJCMc8ipOURH6zDZAQFe8mcLq1hAgMkK1Wy8VoRYL/8Op+L6OCg==",
+      "type": "package"
+    },
     "System.IO/4.3.0": {
       "hashPath": "system.io.4.3.0.nupkg.sha512",
       "path": "./",
@@ -78,11 +92,11 @@
       "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "type": "package"
     },
-    "System.Memory/4.5.2": {
-      "hashPath": "system.memory.4.5.2.nupkg.sha512",
+    "System.Memory/4.5.3": {
+      "hashPath": "system.memory.4.5.3.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-fvq1GNmUFwbKv+aLVYYdgu/+gc8Nu9oFujOxIjPrsf+meis9JBzTPDL6aP/eeGOz9yPj6rRLUbOjKMpsMEWpNg==",
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "type": "package"
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
@@ -113,6 +127,13 @@
       "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package"
     },
+    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
+      "type": "package"
+    },
     "System.Runtime/4.3.0": {
       "hashPath": "system.runtime.4.3.0.nupkg.sha512",
       "path": "./",
@@ -127,11 +148,25 @@
       "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package"
     },
-    "System.Threading.Tasks.Extensions/4.5.1": {
-      "hashPath": "system.threading.tasks.extensions.4.5.1.nupkg.sha512",
+    "System.Text.Encodings.Web/4.6.0": {
+      "hashPath": "system.text.encodings.web.4.6.0.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-WSKUTtLhPR8gllzIWO2x6l4lmAIfbyMAiTlyXAis4QBDonXK4b4S6F8zGARX4/P8wH3DH+sLdhamCiHn+fTU1A==",
+      "sha512": "sha512-BXgFO8Yi7ao7hVA/nklD0Hre1Bbce048ZqryGZVFifGNPuh+2jqF1i/jLJLMfFGZIzUOw+nCIeH24SQhghDSPw==",
+      "type": "package"
+    },
+    "System.Text.Json/4.6.0": {
+      "hashPath": "system.text.json.4.6.0.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-4F8Xe+JIkVoDJ8hDAZ7HqLkjctN/6WItJIzQaifBwClC7wmoLSda/Sv2i6i1kycqDb3hWF4JCVbpAweyOKHEUA==",
+      "type": "package"
+    },
+    "System.Threading.Tasks.Extensions/4.5.3": {
+      "hashPath": "system.threading.tasks.extensions.4.5.3.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-+MvhNtcvIbqmhANyKu91jQnvIRVSTiaOiFNfKWwXGHG48YAb4I/TyH8spsySiPYla7gKal5ZnF3teJqZAximyQ==",
       "type": "package"
     },
     "System.Threading.Tasks/4.3.0": {
@@ -139,6 +174,13 @@
       "path": "./",
       "serviceable": true,
       "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "type": "package"
+    },
+    "System.ValueTuple/4.5.0": {
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "type": "package"
     },
     "appbox.AppContainer/1.0.0": {
@@ -154,6 +196,12 @@
       "type": "project"
     },
     "appbox.Server/1.0.0": {
+      "path": "./",
+      "serviceable": false,
+      "sha512": "",
+      "type": "project"
+    },
+    "appbox.Store.PostgreSQL/1.0.0": {
       "path": "./",
       "serviceable": false,
       "sha512": "",
@@ -203,7 +251,7 @@
   },
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2/linux-x64",
-    "signature": "3ef99d459baaaaa02a84a272f9692ed829fec501"
+    "signature": "3a12e82cb589446fdd629e0ae2c604299581a41a"
   },
   "targets": {
     ".NETCoreApp,Version=v2.2": {},
@@ -219,10 +267,15 @@
       },
       "Google.Protobuf/3.9.1": {
         "dependencies": {
-          "System.Memory": "4.5.2"
+          "System.Memory": "4.5.3"
         },
         "runtime": {
           "./Google.Protobuf.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+        "runtime": {
+          "./Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.2.7": {
@@ -263,6 +316,18 @@
           "./Newtonsoft.Json.dll": {}
         }
       },
+      "Npgsql/4.1.2": {
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
+          "System.Text.Json": "4.6.0",
+          "System.Threading.Tasks.Extensions": "4.5.3",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "./Npgsql.dll": {}
+        }
+      },
       "System.IO/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.3",
@@ -272,7 +337,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.Memory/4.5.2": {},
+      "System.Memory/4.5.3": {},
       "System.Reflection.Emit.ILGeneration/4.3.0": {
         "dependencies": {
           "System.Reflection": "4.3.0",
@@ -304,6 +369,11 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+        "runtime": {
+          "./System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Runtime/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.3",
@@ -317,7 +387,22 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.1": {},
+      "System.Text.Encodings.Web/4.6.0": {
+        "runtime": {
+          "./System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Text.Json/4.6.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
+          "System.Text.Encodings.Web": "4.6.0"
+        },
+        "runtime": {
+          "./System.Text.Json.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.3": {},
       "System.Threading.Tasks/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.3",
@@ -325,12 +410,14 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.ValueTuple/4.5.0": {},
       "appbox.AppContainer/1.0.0": {
         "dependencies": {
           "Microsoft.NETCore.App": "2.2.7",
           "appbox.Core": "1.0.0",
           "appbox.Server": "1.0.0",
           "appbox.Store": "1.0.0",
+          "appbox.Store.PostgreSQL": "1.0.0",
           "nulastudio.NetCoreBeauty": "1.0.2"
         },
         "runtime": {
@@ -340,8 +427,8 @@
       "appbox.Core/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "System.Memory": "4.5.2",
-          "System.Threading.Tasks.Extensions": "4.5.1"
+          "System.Memory": "4.5.3",
+          "System.Threading.Tasks.Extensions": "4.5.3"
         },
         "runtime": {
           "./appbox.Core.dll": {}
@@ -353,6 +440,15 @@
         },
         "runtime": {
           "./appbox.Server.dll": {}
+        }
+      },
+      "appbox.Store.PostgreSQL/1.0.0": {
+        "dependencies": {
+          "Npgsql": "4.1.2",
+          "appbox.Store": "1.0.0"
+        },
+        "runtime": {
+          "./appbox.Store.PostgreSQL.dll": {}
         }
       },
       "appbox.Store/1.0.0": {

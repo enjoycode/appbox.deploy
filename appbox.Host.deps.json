@@ -703,6 +703,13 @@
       "sha512": "sha512-Bs75iht4lXS8uVWy/Cbsr9i0m2jRtnrfPEWU+6t0dQTZcJEfF9b7G2F7XvstLFWkAKSgYRzFkAwi/KypY0Qtew==",
       "type": "package"
     },
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
+      "type": "package"
+    },
     "Microsoft.CSharp/4.5.0": {
       "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512",
       "path": "./",
@@ -1291,6 +1298,13 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package"
     },
+    "Npgsql/4.1.2": {
+      "hashPath": "npgsql.4.1.2.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-41Nht/GnC/cRCA/2T9vq5NAv8m24RDp3paRhJCMc8ipOURH6zDZAQFe8mcLq1hAgMkK1Wy8VoRYL/8Op+L6OCg==",
+      "type": "package"
+    },
     "Remotion.Linq/2.2.0": {
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512",
       "path": "./",
@@ -1564,11 +1578,11 @@
       "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "type": "package"
     },
-    "System.Memory/4.5.2": {
-      "hashPath": "system.memory.4.5.2.nupkg.sha512",
+    "System.Memory/4.5.3": {
+      "hashPath": "system.memory.4.5.3.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-fvq1GNmUFwbKv+aLVYYdgu/+gc8Nu9oFujOxIjPrsf+meis9JBzTPDL6aP/eeGOz9yPj6rRLUbOjKMpsMEWpNg==",
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "type": "package"
     },
     "System.Net.Http/4.3.0": {
@@ -1676,11 +1690,11 @@
       "sha512": "sha512-/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
       "type": "package"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
+      "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
       "type": "package"
     },
     "System.Runtime.Extensions/4.3.0": {
@@ -1858,11 +1872,18 @@
       "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package"
     },
-    "System.Text.Encodings.Web/4.5.0": {
-      "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512",
+    "System.Text.Encodings.Web/4.6.0": {
+      "hashPath": "system.text.encodings.web.4.6.0.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+      "sha512": "sha512-BXgFO8Yi7ao7hVA/nklD0Hre1Bbce048ZqryGZVFifGNPuh+2jqF1i/jLJLMfFGZIzUOw+nCIeH24SQhghDSPw==",
+      "type": "package"
+    },
+    "System.Text.Json/4.6.0": {
+      "hashPath": "system.text.json.4.6.0.nupkg.sha512",
+      "path": "./",
+      "serviceable": true,
+      "sha512": "sha512-4F8Xe+JIkVoDJ8hDAZ7HqLkjctN/6WItJIzQaifBwClC7wmoLSda/Sv2i6i1kycqDb3hWF4JCVbpAweyOKHEUA==",
       "type": "package"
     },
     "System.Text.RegularExpressions/4.3.0": {
@@ -1879,11 +1900,11 @@
       "sha512": "sha512-MEH06N0rIGmRT4LOKQ2BmUO0IxfvmIY/PaouSq+DFQku72OL8cxfw8W99uGpTCFf2vx2QHLRSh374iSM3asdTA==",
       "type": "package"
     },
-    "System.Threading.Tasks.Extensions/4.5.1": {
-      "hashPath": "system.threading.tasks.extensions.4.5.1.nupkg.sha512",
+    "System.Threading.Tasks.Extensions/4.5.3": {
+      "hashPath": "system.threading.tasks.extensions.4.5.3.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-WSKUTtLhPR8gllzIWO2x6l4lmAIfbyMAiTlyXAis4QBDonXK4b4S6F8zGARX4/P8wH3DH+sLdhamCiHn+fTU1A==",
+      "sha512": "sha512-+MvhNtcvIbqmhANyKu91jQnvIRVSTiaOiFNfKWwXGHG48YAb4I/TyH8spsySiPYla7gKal5ZnF3teJqZAximyQ==",
       "type": "package"
     },
     "System.Threading.Tasks.Parallel/4.3.0": {
@@ -1914,11 +1935,11 @@
       "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
       "type": "package"
     },
-    "System.ValueTuple/4.3.0": {
-      "hashPath": "system.valuetuple.4.3.0.nupkg.sha512",
+    "System.ValueTuple/4.5.0": {
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-cNLEvBX3d6MMQRZe3SMFNukVbitDAEpVZO17qa0/2FHxZ7Y7PpFRpr6m2615XYM/tYYYf0B+WyHNujqIw8Luwg==",
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "type": "package"
     },
     "System.Xml.ReaderWriter/4.3.0": {
@@ -1982,6 +2003,12 @@
       "type": "project"
     },
     "appbox.Server/1.0.0": {
+      "path": "./",
+      "serviceable": false,
+      "sha512": "",
+      "type": "project"
+    },
+    "appbox.Store.PostgreSQL/1.0.0": {
       "path": "./",
       "serviceable": false,
       "sha512": "",
@@ -2178,7 +2205,7 @@
   },
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2/linux-x64",
-    "signature": "7cfc895ff5489c48b8f32a85474c38a3de80061b"
+    "signature": "a7c755830201736a39946a546fcfc498fc46901d"
   },
   "targets": {
     ".NETCoreApp,Version=v2.2": {
@@ -2196,7 +2223,7 @@
           "./Google.Protobuf.dll": {}
         },
         "dependencies": {
-          "System.Memory": "4.5.2"
+          "System.Memory": "4.5.3"
         }
       },
       "Humanizer.Core/2.2.0": {
@@ -2680,7 +2707,7 @@
           "./Microsoft.AspNetCore.Html.Abstractions.dll": {}
         },
         "dependencies": {
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         }
       },
       "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
@@ -2689,7 +2716,7 @@
         },
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.2.0",
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         }
       },
       "Microsoft.AspNetCore.Http.Connections.Common/1.1.0": {
@@ -2881,7 +2908,7 @@
           "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
           "System.Diagnostics.DiagnosticSource": "4.5.1",
-          "System.Threading.Tasks.Extensions": "4.5.1"
+          "System.Threading.Tasks.Extensions": "4.5.3"
         }
       },
       "Microsoft.AspNetCore.Mvc.Cors/2.2.0": {
@@ -3156,9 +3183,9 @@
           "Microsoft.Extensions.Options": "2.2.0",
           "System.Buffers": "4.5.0",
           "System.IO.Pipelines": "4.5.3",
-          "System.Memory": "4.5.2",
+          "System.Memory": "4.5.3",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
           "System.Security.Principal.Windows": "4.5.0"
         }
       },
@@ -3175,11 +3202,11 @@
           "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
           "Microsoft.Net.Http.Headers": "2.2.0",
-          "System.Memory": "4.5.2",
+          "System.Memory": "4.5.3",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
           "System.Security.Cryptography.Cng": "4.5.0",
-          "System.Threading.Tasks.Extensions": "4.5.1"
+          "System.Threading.Tasks.Extensions": "4.5.3"
         }
       },
       "Microsoft.AspNetCore.Server.Kestrel.Https/2.2.0": {
@@ -3325,7 +3352,7 @@
         },
         "dependencies": {
           "Microsoft.Net.Http.Headers": "2.2.0",
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         }
       },
       "Microsoft.AspNetCore/2.2.0": {
@@ -3351,6 +3378,11 @@
           "Microsoft.Extensions.Logging.Console": "2.2.0",
           "Microsoft.Extensions.Logging.Debug": "2.2.0",
           "Microsoft.Extensions.Logging.EventSource": "2.2.0"
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+        "compile": {
+          "./Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -3428,10 +3460,10 @@
           "System.Text.Encoding.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
-          "System.Threading.Tasks.Extensions": "4.5.1",
+          "System.Threading.Tasks.Extensions": "4.5.3",
           "System.Threading.Tasks.Parallel": "4.3.0",
           "System.Threading.Thread": "4.3.0",
-          "System.ValueTuple": "4.3.0",
+          "System.ValueTuple": "4.5.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XPath.XDocument": "4.3.0",
@@ -3954,8 +3986,8 @@
           "./Microsoft.Extensions.Primitives.dll": {}
         },
         "dependencies": {
-          "System.Memory": "4.5.2",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         }
       },
       "Microsoft.Extensions.WebEncoders/2.2.0": {
@@ -3965,7 +3997,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         }
       },
       "Microsoft.IdentityModel.JsonWebTokens/5.3.0": {
@@ -4268,6 +4300,18 @@
       "Newtonsoft.Json/11.0.2": {
         "compile": {
           "./Newtonsoft.Json.dll": {}
+        }
+      },
+      "Npgsql/4.1.2": {
+        "compile": {
+          "./Npgsql.dll": {}
+        },
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
+          "System.Text.Json": "4.6.0",
+          "System.Threading.Tasks.Extensions": "4.5.3",
+          "System.ValueTuple": "4.5.0"
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -4667,7 +4711,7 @@
           "System.Runtime.Extensions": "4.3.0"
         }
       },
-      "System.Memory/4.5.2": {},
+      "System.Memory/4.5.3": {},
       "System.Net.Http/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.3",
@@ -4814,7 +4858,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.1": {
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
         "compile": {
           "./System.Runtime.CompilerServices.Unsafe.dll": {}
         }
@@ -5055,7 +5099,7 @@
       "System.Text.Encoding.CodePages/4.5.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.3",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         }
       },
       "System.Text.Encoding.Extensions/4.3.0": {
@@ -5073,9 +5117,19 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Text.Encodings.Web/4.5.0": {
+      "System.Text.Encodings.Web/4.6.0": {
         "compile": {
           "./System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Text.Json/4.6.0": {
+        "compile": {
+          "./System.Text.Json.dll": {}
+        },
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
+          "System.Text.Encodings.Web": "4.6.0"
         }
       },
       "System.Text.RegularExpressions/4.3.0": {
@@ -5088,7 +5142,7 @@
           "./System.Threading.Channels.dll": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.1": {},
+      "System.Threading.Tasks.Extensions/4.5.3": {},
       "System.Threading.Tasks.Parallel/4.3.0": {
         "dependencies": {
           "System.Collections.Concurrent": "4.3.0",
@@ -5119,13 +5173,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.ValueTuple/4.3.0": {
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
-        }
-      },
+      "System.ValueTuple/4.5.0": {},
       "System.Xml.ReaderWriter/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -5142,7 +5190,7 @@
           "System.Text.Encoding.Extensions": "4.3.0",
           "System.Text.RegularExpressions": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
-          "System.Threading.Tasks.Extensions": "4.5.1"
+          "System.Threading.Tasks.Extensions": "4.5.3"
         }
       },
       "System.Xml.XDocument/4.3.0": {
@@ -5228,8 +5276,8 @@
         },
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "System.Memory": "4.5.2",
-          "System.Threading.Tasks.Extensions": "4.5.1"
+          "System.Memory": "4.5.3",
+          "System.Threading.Tasks.Extensions": "4.5.3"
         }
       },
       "appbox.Design/1.0.0": {
@@ -5254,6 +5302,7 @@
           "appbox.Design": "1.0.0",
           "appbox.Server": "1.0.0",
           "appbox.Store": "1.0.0",
+          "appbox.Store.PostgreSQL": "1.0.0",
           "nulastudio.NetCoreBeauty": "1.0.2",
           "prometheus-net": "3.3.0"
         }
@@ -5264,6 +5313,15 @@
         },
         "dependencies": {
           "appbox.Core": "1.0.0"
+        }
+      },
+      "appbox.Store.PostgreSQL/1.0.0": {
+        "compile": {
+          "./appbox.Store.PostgreSQL.dll": {}
+        },
+        "dependencies": {
+          "Npgsql": "4.1.2",
+          "appbox.Store": "1.0.0"
         }
       },
       "appbox.Store/1.0.0": {
@@ -5367,7 +5425,7 @@
       },
       "Google.Protobuf/3.9.1": {
         "dependencies": {
-          "System.Memory": "4.5.2"
+          "System.Memory": "4.5.3"
         },
         "runtime": {
           "./Google.Protobuf.dll": {}
@@ -5851,7 +5909,7 @@
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "dependencies": {
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         },
         "runtime": {
           "./Microsoft.AspNetCore.Html.Abstractions.dll": {}
@@ -5860,7 +5918,7 @@
       "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.2.0",
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         },
         "runtime": {
           "./Microsoft.AspNetCore.Http.Abstractions.dll": {}
@@ -6052,7 +6110,7 @@
           "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
           "System.Diagnostics.DiagnosticSource": "4.5.1",
-          "System.Threading.Tasks.Extensions": "4.5.1"
+          "System.Threading.Tasks.Extensions": "4.5.3"
         },
         "runtime": {
           "./Microsoft.AspNetCore.Mvc.Core.dll": {}
@@ -6327,9 +6385,9 @@
           "Microsoft.Extensions.Options": "2.2.0",
           "System.Buffers": "4.5.0",
           "System.IO.Pipelines": "4.5.3",
-          "System.Memory": "4.5.2",
+          "System.Memory": "4.5.3",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
           "System.Security.Principal.Windows": "4.5.0"
         },
         "runtime": {
@@ -6346,11 +6404,11 @@
           "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
           "Microsoft.Net.Http.Headers": "2.2.0",
-          "System.Memory": "4.5.2",
+          "System.Memory": "4.5.3",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
           "System.Security.Cryptography.Cng": "4.5.0",
-          "System.Threading.Tasks.Extensions": "4.5.1"
+          "System.Threading.Tasks.Extensions": "4.5.3"
         },
         "runtime": {
           "./Microsoft.AspNetCore.Server.Kestrel.Core.dll": {}
@@ -6496,7 +6554,7 @@
       "Microsoft.AspNetCore.WebUtilities/2.2.0": {
         "dependencies": {
           "Microsoft.Net.Http.Headers": "2.2.0",
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         },
         "runtime": {
           "./Microsoft.AspNetCore.WebUtilities.dll": {}
@@ -6525,6 +6583,11 @@
         },
         "runtime": {
           "./Microsoft.AspNetCore.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+        "runtime": {
+          "./Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -6659,10 +6722,10 @@
           "System.Text.Encoding.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
-          "System.Threading.Tasks.Extensions": "4.5.1",
+          "System.Threading.Tasks.Extensions": "4.5.3",
           "System.Threading.Tasks.Parallel": "4.3.0",
           "System.Threading.Thread": "4.3.0",
-          "System.ValueTuple": "4.3.0",
+          "System.ValueTuple": "4.5.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XPath.XDocument": "4.3.0",
@@ -7245,8 +7308,8 @@
       },
       "Microsoft.Extensions.Primitives/2.2.0": {
         "dependencies": {
-          "System.Memory": "4.5.2",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         },
         "runtime": {
           "./Microsoft.Extensions.Primitives.dll": {}
@@ -7256,7 +7319,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         },
         "runtime": {
           "./Microsoft.Extensions.WebEncoders.dll": {}
@@ -7415,6 +7478,18 @@
       "Newtonsoft.Json/11.0.2": {
         "runtime": {
           "./Newtonsoft.Json.dll": {}
+        }
+      },
+      "Npgsql/4.1.2": {
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
+          "System.Text.Json": "4.6.0",
+          "System.Threading.Tasks.Extensions": "4.5.3",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "./Npgsql.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -7810,7 +7885,7 @@
           "System.Runtime.Extensions": "4.3.0"
         }
       },
-      "System.Memory/4.5.2": {},
+      "System.Memory/4.5.3": {},
       "System.Net.Http/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.3",
@@ -7957,7 +8032,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.1": {
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
         "runtime": {
           "./System.Runtime.CompilerServices.Unsafe.dll": {}
         }
@@ -8191,7 +8266,7 @@
       "System.Text.Encoding.CodePages/4.5.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.3",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         },
         "runtime": {
           "./System.Text.Encoding.CodePages.dll": {}
@@ -8212,9 +8287,19 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Text.Encodings.Web/4.5.0": {
+      "System.Text.Encodings.Web/4.6.0": {
         "runtime": {
           "./System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Text.Json/4.6.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
+          "System.Text.Encodings.Web": "4.6.0"
+        },
+        "runtime": {
+          "./System.Text.Json.dll": {}
         }
       },
       "System.Text.RegularExpressions/4.3.0": {
@@ -8227,7 +8312,7 @@
           "./System.Threading.Channels.dll": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.1": {},
+      "System.Threading.Tasks.Extensions/4.5.3": {},
       "System.Threading.Tasks.Parallel/4.3.0": {
         "dependencies": {
           "System.Collections.Concurrent": "4.3.0",
@@ -8258,13 +8343,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.ValueTuple/4.3.0": {
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
-        }
-      },
+      "System.ValueTuple/4.5.0": {},
       "System.Xml.ReaderWriter/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -8281,7 +8360,7 @@
           "System.Text.Encoding.Extensions": "4.3.0",
           "System.Text.RegularExpressions": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
-          "System.Threading.Tasks.Extensions": "4.5.1"
+          "System.Threading.Tasks.Extensions": "4.5.3"
         }
       },
       "System.Xml.XDocument/4.3.0": {
@@ -8364,8 +8443,8 @@
       "appbox.Core/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "System.Memory": "4.5.2",
-          "System.Threading.Tasks.Extensions": "4.5.1"
+          "System.Memory": "4.5.3",
+          "System.Threading.Tasks.Extensions": "4.5.3"
         },
         "runtime": {
           "./appbox.Core.dll": {}
@@ -8390,6 +8469,7 @@
           "appbox.Design": "1.0.0",
           "appbox.Server": "1.0.0",
           "appbox.Store": "1.0.0",
+          "appbox.Store.PostgreSQL": "1.0.0",
           "nulastudio.NetCoreBeauty": "1.0.2",
           "prometheus-net": "3.3.0"
         },
@@ -8403,6 +8483,15 @@
         },
         "runtime": {
           "./appbox.Server.dll": {}
+        }
+      },
+      "appbox.Store.PostgreSQL/1.0.0": {
+        "dependencies": {
+          "Npgsql": "4.1.2",
+          "appbox.Store": "1.0.0"
+        },
+        "runtime": {
+          "./appbox.Store.PostgreSQL.dll": {}
         }
       },
       "appbox.Store/1.0.0": {
