@@ -15,11 +15,11 @@
       "sha512": "sha512-MV9xJkpm2Jbe30XGwyPH4Xn0LwutWn6UEoLo2djfG2ouK2cBVrlcP4sJPfLrRVFzRutmGHoWUHdHFsq1qiRV5A==",
       "type": "package"
     },
-    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
-      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
+      "sha512": "sha512-1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
       "type": "package"
     },
     "Microsoft.NETCore.App/2.2.7": {
@@ -127,11 +127,11 @@
       "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
-      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "System.Runtime.CompilerServices.Unsafe/4.7.0": {
+      "hashPath": "system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
+      "sha512": "sha512-IpU1lcHz8/09yDr9N+Juc7SCgNUz+RohkCQI+KsWKR67XxpFr8Z6c8t1iENCXZuRuNCc4HBwme/MDHNVCwyAKg==",
       "type": "package"
     },
     "System.Runtime/4.3.0": {
@@ -148,18 +148,18 @@
       "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package"
     },
-    "System.Text.Encodings.Web/4.6.0": {
-      "hashPath": "system.text.encodings.web.4.6.0.nupkg.sha512",
+    "System.Text.Encodings.Web/4.7.0": {
+      "hashPath": "system.text.encodings.web.4.7.0.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-BXgFO8Yi7ao7hVA/nklD0Hre1Bbce048ZqryGZVFifGNPuh+2jqF1i/jLJLMfFGZIzUOw+nCIeH24SQhghDSPw==",
+      "sha512": "sha512-IJanJWPQvya2sbGStt3Fkdy4IaomUBSadAfYWeJDQw0zclMk9ixSvMeei6cSmTTQ6ZkGIIAbhHZVCoLR7GgX7Q==",
       "type": "package"
     },
-    "System.Text.Json/4.6.0": {
-      "hashPath": "system.text.json.4.6.0.nupkg.sha512",
+    "System.Text.Json/4.7.0": {
+      "hashPath": "system.text.json.4.7.0.nupkg.sha512",
       "path": "./",
       "serviceable": true,
-      "sha512": "sha512-4F8Xe+JIkVoDJ8hDAZ7HqLkjctN/6WItJIzQaifBwClC7wmoLSda/Sv2i6i1kycqDb3hWF4JCVbpAweyOKHEUA==",
+      "sha512": "sha512-IPq/x/d5nAcnD3vIyM3AbPOaTgcqrh0AqPSx7U53UFu3M6k1TH1u/eXc9/h4jm/3mpP1WRUpevlPY4PACd7AWw==",
       "type": "package"
     },
     "System.Threading.Tasks.Extensions/4.5.3": {
@@ -251,7 +251,7 @@
   },
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2/linux-x64",
-    "signature": "3a12e82cb589446fdd629e0ae2c604299581a41a"
+    "signature": "c4bf1605d50bb8972125e068c667bcbb3ae02c44"
   },
   "targets": {
     ".NETCoreApp,Version=v2.2": {},
@@ -273,7 +273,7 @@
           "./Google.Protobuf.dll": {}
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
         "runtime": {
           "./Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
@@ -319,8 +319,8 @@
       "Npgsql/4.1.2": {
         "dependencies": {
           "System.Memory": "4.5.3",
-          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
-          "System.Text.Json": "4.6.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.0",
+          "System.Text.Json": "4.7.0",
           "System.Threading.Tasks.Extensions": "4.5.3",
           "System.ValueTuple": "4.5.0"
         },
@@ -369,7 +369,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+      "System.Runtime.CompilerServices.Unsafe/4.7.0": {
         "runtime": {
           "./System.Runtime.CompilerServices.Unsafe.dll": {}
         }
@@ -387,16 +387,16 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Text.Encodings.Web/4.6.0": {
+      "System.Text.Encodings.Web/4.7.0": {
         "runtime": {
           "./System.Text.Encodings.Web.dll": {}
         }
       },
-      "System.Text.Json/4.6.0": {
+      "System.Text.Json/4.7.0": {
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
-          "System.Text.Encodings.Web": "4.6.0"
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.0",
+          "System.Text.Encodings.Web": "4.7.0"
         },
         "runtime": {
           "./System.Text.Json.dll": {}
@@ -428,6 +428,7 @@
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
           "System.Memory": "4.5.3",
+          "System.Text.Json": "4.7.0",
           "System.Threading.Tasks.Extensions": "4.5.3"
         },
         "runtime": {
